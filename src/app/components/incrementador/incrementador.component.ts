@@ -52,6 +52,7 @@ export class IncrementadorComponent implements OnInit {
     // elemHTMl.value=this.porcentaje;
     this.txtprogress.nativeElement.value = this.porcentaje;
     this.cambioValor.emit(this.porcentaje);
+    this.txtprogress.nativeElement.focus();
     
 
 

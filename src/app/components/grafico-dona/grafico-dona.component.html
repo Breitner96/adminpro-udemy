@@ -1,0 +1,16 @@
+<style>.redtext{
+
+    color: black;
+    text-align: center;
+}</style>
+
+<h1 class="redtext">{{escritura}}</h1>
+
+<div style="display: block">
+    <canvas baseChart
+        [data]="doughnutChartData"
+        [labels]="doughnutChartLabels"
+        [chartType]="doughnutChartType">
+                                
+    </canvas>
+</div>
