@@ -30,7 +30,7 @@ export class IncrementadorComponent implements OnInit {
     // console.log('porcentaje', this.porcentaje);
 
   }
-
+ 
   newChange( newValue: number){
 
     // let elemHTMl: any= document.getElementsByName('porcentaje')[0];
